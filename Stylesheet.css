@@ -1,0 +1,24 @@
+body {
+    background-color: #66707D;
+    
+}
+
+.BT /* Titres en bleu  */ 
+{
+    color: #A6CAF9;
+    
+}
+
+.PB /* Paragraphes en blanc */
+{
+    color: White;
+    text-align: center;
+    margin: 0% 9% 0% 9%;
+}
+
+#TitreSite
+{
+    font-size: 48;
+    text-decoration:underline;
+    text-align: center;
+}
