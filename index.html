@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Digital Resume</title>
+  <meta charset="utf-8">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="background">
+  <div class="container">
+    <div class="row flex" style="margin-bottom: 0; margin-top: 1em;">
+      <div class="img-profile">
+          <img src="assets/Gautier_Plancq.png" alt="" class="responsive-img" style="max-width: 13em;">
+      </div>
+      <div class="title">
+        <div class="row row-spacer">
+          <div class="col s12">
+            <h3 class="white-text">Gautier PLANCQ</h3>
+          </div>
+        </div>
+        <div class="row row-spacer">
+          <div class="col s12">
+            <h5 class="white-text" id="sub-header">Computer Science Student - Epitech Lille - 3rd year</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="flags-container">
+      <img src="./assets/france.png" class="hoverable" id="french-flag" alt="french flag" width="32" />
+      <img src="./assets/united-kingdom.png" class="hoverable" id="english-flag" alt="english flag" width="32" />
+    </div>
+    <hr>
+    <div class="row flex" id="first-section">
+      <div class=" card white darken-1 hoverable margin-side">
+        <div class="card-content black-text">
+          <span class="card-title">
+            <span id="story-title">Story</span>
+          </span>
+          <div id="story-text">
+            I did epitech since 3 years and I got knowledges about a lot of programming languages & framework such as
+            C, C++, React, Laravel, Git, Python, JavaScript, ShellScript... When I was fifteen years old I began to
+            learn C++
+            and today I still be here to dig deeper to have more knowledges.
+          </div>
+        </div>
+      </div>
+      <div class="card white darken-1 hoverable margin-side">
+        <div class="card-content black-text">
+          <span class="card-title">
+            <div class="row valign-wrapper">
+              <div class="col s2">
+                <img src="assets/avatar.jpg" alt="" class="circle responsive-img">
+              </div>
+              <div class="col s10">
+                <span id="visit-card-title">
+                  My Visit Card
+                </span>
+              </div>
+            </div>
+          </span>
+          <div class="row">
+            <div class="col left-align">
+              <b id="name-label">Name:</b>&nbsp;Gautier PLANCQ
+            </div>
+            <div class="col right-align">
+              <b id="phone-label">Phone:</b>&nbsp;0782656667
+            </div>
+          </div>
+          <div class="row">
+            <div class="col left-align">
+              <b id="email-label">Email:</b>&nbsp;gautier.plancq@gmail.com</b>
+            </div>
+            <div class="col right-align">
+              <b id="city-label">City:</b>&nbsp;Lille
+            </div>
+          </div>
+          <div class="row row-spacer">
+            <div class="col">&nbsp;</div>
+            <div class="col">&nbsp;</div>
+          </div>
+        </div>
+        <div class="card-action">
+          <div class="row" id="row-link">
+            <div class="col s6">
+              <a href="https://github.com/XwolfY/" class="valign-wrapper red-text">
+                <i class="fab fa-github-square"></i>&nbsp;Github</a>
+            </div>
+            <div class="col s6">
+              <a href="https://www.linkedin.com/in/gautier-plancq/" class="valign-wrapper red-text">
+                <i class="fab fa-linkedin"></i>&nbsp;Linkedin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" card white darken-1 hoverable margin-side">
+        <div class="card-content black-text">
+          <span class="card-title">
+            <span id="specialities-title">Specialities</span>
+          </span>
+          <div>
+            <table class="striped">
+              <thead>
+                <tr>
+                  <th id="field-activity">Field of Activity</th>
+                  <th id="skills">Skills</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td id="web-dev">Web Developpement</td>
+                  <td>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="mobile-dev">Mobile Developpement</td>
+                  <td>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="project-management">Project Management</td>
+                  <td>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row flex">
+      <div class="card white darken-1 z-depth-2 hoverable margin-side">
+        <div class="card-content black-text">
+          <span class="card-title" id="programming-language-title">
+            Programming Languages
+          </span>
+          <div class="row">
+            <div class="carousel" style="max-height:15em;">
+              <a class="carousel-item" href="https://developer.mozilla.org/fr/docs/Web/JavaScript">
+                <div><i class="fab fa-js-square icons" id="js-ico"></i></div>
+              </a>
+              <a class="carousel-item" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5">
+                <div><i class="fab fa-html5 icons"></i></div>
+              </a>
+              <a class="carousel-item" href="https://www.php.net/">
+                <div><i class="fab fa-php icons" id="php-ico"></i></div>
+              </a>
+              <a class="carousel-item" href="https://en.wikipedia.org/wiki/C_(programming_language)">
+                <div><i class="fab fa-cuttlefish icons" id="c-ico"></i></div>
+              </a>
+              <a class="carousel-item" href="https://developer.mozilla.org/fr/docs/Web/CSS">
+                <div><i class="fab fa-css3 icons" id="css3-ico"></i></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card white darken-1 z-depth-2 hoverable margin-side">
+        <div class="card-content black-text">
+          <span class="card-title" id="frameworks-language-title">
+            Frameworks and Technologies
+          </span>
+          <div class="row">
+            <div class="carousel" style="max-height:15em;">
+              <a class="carousel-item" href="https://fr.reactjs.org/">
+                <div><i class="fab fa-react icons" id="react-ico"></i></div>
+              </a>
+              <a class="carousel-item" href="https://laravel.com/">
+                <div><i class="fab fa-laravel icons" id="laravel-ico"></i></div>
+              </a>
+              <a class="carousel-item" href="https://reactnative.dev/"><i class="fas fa-atom icons"
+                  id="reactn-ico"></i></a>
+              <a class="carousel-item" href="https://fr.vuejs.org/"><i class="fab fa-vuejs icons" id="vue-ico"></i></a>
+              <a class="carousel-item" href="https://git-scm.com/">
+                <div><i class="fab fa-git-square icons" id="git-ico"></i></div>
+              </a>
+              <a class="carousel-item" href="https://nodejs.org/en/"><i class="fab fa-node icons" id="node-ico"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/language.js"></script>
+</body>
+
+</html>
